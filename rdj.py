@@ -3,12 +3,18 @@ import requests
 
 artist = input('Enter artist name : ')
 
-det = get_audio.mp3(artist)
+name = get_audio.get_artist_name(artist)
+co1 = 0
+for names in name:
+    co1 += 1
+    print('( {} ) / {}'.format(co1,names['name']))
+choose_artist = int(input('Please choose artist : '))
+
+det = get_audio.get_artist_mp3s(name[choose_artist - 1]['name'])
 if len(det) == 0: print('Dada esmo eshtaba zadi') ; exit()
 count = 0
 for details in det:
     count += 1
-    #print(f'( {count} ) / {details['artist']} / {details['song_name']}')
     print('( {} ) / {} / {}'.format(count,details['artist'],details['song_name']))
 
 
