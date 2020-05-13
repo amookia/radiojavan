@@ -16,4 +16,4 @@ python3 rdj.py
 ```
 ![Demo](https://raw.githubusercontent.com/amookia/radiojavan/master/modules/demo.gif)
 
-- [ ] Add album downloader
+- [x] Add album downloader
