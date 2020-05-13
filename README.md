@@ -14,7 +14,7 @@ git clone https://github.com/amookia/radiojavan.git
 ```bash
 python3 rdj.py
 ```
-![Demo](https://raw.githubusercontent.com/amookia/radiojavan/master/modules/demo.gif)
+![Demo](http://uupload.ir/files/r36j_demo.gif)
 
 ## Features
 * Downlaod track from specific album
